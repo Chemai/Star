@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.star" name="Repositorio [COLOR gold][B]STAR[/B][/COLOR]" version="1.0.0" provider-name="Chem@i">
+    <extension point="xbmc.addon.repository" name="Repositorio Star">
+        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/Repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio [COLOR gold][B]STAR[/B][/COLOR] v:1.0.0</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
