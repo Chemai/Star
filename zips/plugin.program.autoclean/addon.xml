@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.autoclean" name="[COLOR aqua]AutoCleaner[/COLOR]" version="1.0.4" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Limpiador automático</summary>
+	<description lang="es">
+	[B][COLOR gold]Novedades de la versión[/B][/COLOR]
+        - Versión del addon [COLOR lime][B] versión 1.0.4 [/B][/COLOR]
+        - Cambios menores[COLOR lime][B] versión 1.0.4 [/B][/COLOR]
+        - Addon automático, se inica con Kodi en el starup, y procedea limpiar la cache, paquetes y restos
+	</description>
+	<disclaimer lang="es">Configúralo, Puedes deshabilitarlo </disclaimer>
+    <platform>all</platform>
+	<news>[COLOR red] [B]¡¡ ATENCIÓN !![/B]  El programa se inicia automáticamente con KODI[/COLOR] </news>
+  </extension>
+</addon>

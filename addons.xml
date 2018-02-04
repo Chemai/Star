@@ -1,5 +1,280 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.autoclean" name="[COLOR aqua]AutoCleaner[/COLOR]" version="1.0.4" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Limpiador automático</summary>
+	<description lang="es">
+	[B][COLOR gold]Novedades de la versión[/B][/COLOR]
+        - Versión del addon [COLOR lime][B] versión 1.0.4 [/B][/COLOR]
+        - Cambios menores[COLOR lime][B] versión 1.0.4 [/B][/COLOR]
+        - Addon automático, se inica con Kodi en el starup, y procedea limpiar la cache, paquetes y restos
+	</description>
+	<disclaimer lang="es">Configúralo, Puedes deshabilitarlo </disclaimer>
+    <platform>all</platform>
+	<news>[COLOR red] [B]¡¡ ATENCIÓN !![/B]  El programa se inicia automáticamente con KODI[/COLOR] </news>
+  </extension>
+</addon>
+
+<addon id="plugin.program.charger" name="[COLOR aqua]Xml Charguer[/COLOR]" version="0.0.8" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="es">Cargador para listas m3u - xml</summary>
+        <description lang="es">[COLOR red][/COLOR]
+	[B][COLOR gold]Novedades[/B][/COLOR]
+        - Versión del addon [COLOR lime][B] versión 0.0.8 [/B][/COLOR]
+        - Cambios menores[COLOR lime][B] versión 0.0.8 [/B][/COLOR]
+        - Addon </description>
+	<disclaimer lang="es">Configúralo cargando tus listas personales </disclaimer>
+    <platform>all</platform>
+	<news>[COLOR red] [B]¡¡ ATENCIÓN !![/B]  No lo inicias a menos que dispongas de una lista, en caso contrario deberás establecer una a la azar para cerrarlo [/COLOR] </news>
+    </extension>
+</addon>
+
+<addon id="plugin.program.reinicio" name="Borrado Total"
+	version="1.0.0" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Restaura tu Kodi a los valores iniciales</summary>
+    <description lang="es">!Kodi como recien instalado¡ Elimina todas los addons y configuraciones que hayas instalado, Si tienes problemas comienza desde cero</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.program.StarWZRD" name="[COLOR gold][B]Star[/B][/COLOR]WZRD" version="1.8.1" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Chemai Wizard</summary>
+    <description lang="en">Personal installer for Kodi Kripton</description>
+    <summary lang="es">Chemai Wizard</summary>
+    <description lang="es">Instalador preconfigurado para Kodi Kripton</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.StarTools" name="[COLOR orange][B] STAR[/B] [/COLOR]Tools" version="1.0" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary lang="es">plugin.program.StarTools</summary>
+  <description lang="es">STAR Tools - Utilidades para el mantenimiento, optimización, y backup de Kodi </description>
+	<news>[B]v 1.0[/B]
+[COLOR green][B]Utilidades[/B][/COLOR]
+* ...
+https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit
+Primera version del addon,
+
+	  </news>
+	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    			<screenshot>resources/media/screenshot000.jpg</screenshot>
+    			<screenshot>resources/media/screenshot001.jpg</screenshot>
+    			<screenshot>resources/media/screenshot002.jpg</screenshot>
+    			<screenshot>resources/media/screenshot003.jpg</screenshot>
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://</source>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="REPO-repo">
+		<info compressed="false">https://raw.githubusercontent.com/Chemai/repository.REPO/master/ZIPS/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Chemai/repository.REPO/master/ZIPS/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Chemai/repository.REPO/master/ZIPS/</datadir>
+	</extension>
+
+</addon>
+
+<addon id="plugin.video.live.streamspro"
+       name="LiveStreamsPro"
+       version="2.8.1"
+       provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
+    <description>
+        In addition to what livestreams allowed you to do, you can now,
+        1. call regex in regex,
+        2. multiple regex in page, regex in session, also htmlunescape responses
+        3. create session from one regex and pass onto next in line
+        4. save sessions to a file and open again later
+        5. write python code in .py file, put in the profile directory and then call from your regex.
+        6. use epoctime, guid and unpack as functions already defined.
+        7. Use it to post values to the pages to get the proper responses
+        8. support many headers, like origin, X-Requested-With
+        9. you can now append cookies in response and then read in regex using includeheaders
+        10. You can now link to another web url via your xml using externallink
+        11. support for google captcha, now you can show and then post the text
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="1.0.7" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Repositorio L ON">
+        <info compressed="false">https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Baul/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR blue]Addon for Kodi[/COLOR]</summary>
+    <description lang="en">[COLOR gold] DIC 2017[/COLOR] Addon personal </description>
+    <platform>all</platform>
+	<forum></forum>
+    <website></website>
+	<news></news>
+
+  </extension>
+</addon>
+
+<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="1.0.0" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+    <extension point="xbmc.addon.repository" name="Repositorio [B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B]">
+        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/Repo/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">[COLOR blue]Addon Personal for Kodi[/COLOR]</summary>
+    <description lang="es">[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white]v:1.0.0[/COLOR]</description>
+      <news>[B]Versión:1.0.0[/B]
+      [COLOR green][B]Bienvenido[/B][/COLOR]
+	  Espero disfrutes del contenido
+	  Primera versión, pruebas
+    </news>
+    <disclaimer>[COLOR orange]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/item1.jpg</screenshot>
+	  <screenshot>resources/media/item2.jpg</screenshot>
+	  <screenshot>resources/media/item3.jpg</screenshot>
+	  <screenshot>resources/media/item4.jpg</screenshot>
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+	<repository>[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B]</repository>
+    <source>https://</source>
+  </extension>
+</addon>
+
+<addon id="program.kodispeedtest"
+       name="SpeedTest Kodi"
+       version="0.0.3"
+       provider-name="Speedtest.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Kodi Prueba de velocidad</summary>
+    <description lang="es"> Herramienta para controlar la velocidad de tu red, basada en speedtest.net de ookla.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.star" name="Repositorio [COLOR gold][B]STAR[/B][/COLOR]" version="1.0.0" provider-name="Chem@i">
     <extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
@@ -12,5 +287,48 @@
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.backupwizard" name="[COLOR white]Backup WIZARD[/COLOR]" version="1.1.0" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Copias de seguridad y restauranción</summary>
+    <description>Guarda tu configuración de Kodi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.xbmcbackup2"
+    name="Backup" version="1.1.2" provider-name="robweber">
+  <requires>
+	<!-- jarvis -->
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.httplib2" version="0.8.0" />
+    <import addon="script.module.oauth2client" version="4.1.2" />
+    <import addon="script.module.uritemplate" version="0.6" />
+    <import addon="script.module.yaml" version="3.11"/>
+    <import addon="script.module.googleapi" version="1.6.4" />
+	<import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="scheduler.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Backup and restore your Kodi database and configuration files in the event of a crash or file corruption.</summary>
+    <summary lang="es">Haz copia de seguridad de tu base de datos y configuración y recupera todo en caso de fallo.</summary>
+    <description lang="en">Ever hosed your Kodi configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
+    <description lang="es">¿Alguna vez te has cargado la configuración de XBMC y habrías deseado tener una copia de seguridad? Ahora puedes tenerla con un único click. Exporta tus base de datos, listas de reproducción, miniaturas, addons y resto de configuraciones a cualquier fuente accesible por XBMC o a tu almacenamiento en Dropbox. Las copias de seguridad pueden programarse o realizarse bajo demanda.</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
+    <source>https://github.com/robweber/xbmcbackup</source>
+  </extension>
 </addon>
 </addons>
