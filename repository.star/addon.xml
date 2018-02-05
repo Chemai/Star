@@ -3,7 +3,7 @@
     <extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio [COLOR gold][B]STAR[/B][/COLOR] v:1.0.0</summary>
