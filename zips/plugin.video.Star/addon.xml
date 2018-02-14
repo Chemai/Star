@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="1.0.0" provider-name="Chem@i">
+<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="0.0.1" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -20,16 +20,10 @@
     <provides>video</provides>
   </extension>
   
-    <extension point="xbmc.addon.repository" name="Repositorio [B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B]">
-        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/Repo/</datadir>
-    </extension>
-	
   <extension point="xbmc.addon.metadata">
     <summary lang="es">[COLOR blue]Addon Personal for Kodi[/COLOR]</summary>
     <description lang="es">[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white]v:1.0.0[/COLOR]</description>
-      <news>[B]Versión:1.0.0[/B]
+      <news>[B]Versión:0.0.1[/B]
       [COLOR green][B]Bienvenido[/B][/COLOR]
 	  Espero disfrutes del contenido
 	  Primera versión, pruebas

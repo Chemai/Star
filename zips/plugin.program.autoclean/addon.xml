@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.autoclean" name="[COLOR aqua]AutoCleaner[/COLOR]" version="1.0.4" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+<addon id="plugin.program.autoclean" name="[COLOR gold]AutoCleaner[/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

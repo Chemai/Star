@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="1.0.7" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
+<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -18,12 +18,6 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
-  <extension point="xbmc.addon.repository" name="Repositorio L ON">
-        <info compressed="false">https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Baul/master/Repositorio/</datadir>
-    </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR blue]Addon for Kodi[/COLOR]</summary>

@@ -1,0 +1,17 @@
+######################################################
+##     Merlin Auto Cleaner
+##     By Merlin Project
+##     August 2016
+#######################################################
+
+
+Initial Release - 05 August 2016
+
+          - Default Clean Up Enabled
+          - Cache & Packages
+
+
+
+plugin.program.autoclean
+
+Enjoy

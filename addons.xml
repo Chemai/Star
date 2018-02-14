@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.autoclean" name="[COLOR aqua]AutoCleaner[/COLOR]" version="1.0.4" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.3" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary>ADV Set - Utilidades by Chem@i</summary>
+  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
+	<news>[COLOR orange] ADV [/COLOR]Set v 2.3
+* BackUp and Restore, (incorporada la opcion de restaurar copia de seguridad)
+[COLOR gold][B]¡¡ ATENCION !![/B][/COLOR] [COLOR red]Antes de RESTAURAR un BackUp, hay que cambiar necesariamente a los skin por defecto, Confluence o Estuary[/COLOR]
+* Textos traducidos al castellano.
+
+	  </news>
+	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    			<screenshot>resources/media/screenshot000.jpg</screenshot>
+    			<screenshot>resources/media/screenshot001.jpg</screenshot>
+    			<screenshot>resources/media/screenshot002.jpg</screenshot>
+    			<screenshot>resources/media/screenshot003.jpg</screenshot>
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://</source>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+</addon>
+
+<addon id="plugin.program.autoclean" name="[COLOR gold]AutoCleaner[/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -22,7 +65,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.charger" name="[COLOR aqua]Xml Charguer[/COLOR]" version="0.0.8" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+<addon id="plugin.program.charger" name="[COLOR aqua]Xml Charguer[/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -44,7 +87,7 @@
 </addon>
 
 <addon id="plugin.program.reinicio" name="Borrado Total"
-	version="1.0.0" provider-name="">
+	version="0.0.1" provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -58,46 +101,6 @@
     <forum></forum>
     <website></website>
   </extension>
-</addon>
-
-<addon id="plugin.program.StarWZRD" name="[COLOR gold][B]Star[/B] [/COLOR]WZRD" version="0.0.2" provider-name="Chem@i">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-  <summary>[COLOR gold][B]Star[/B] [/COLOR]WZRD - by Chem@i</summary>
-  <description>Programa instalador de Wizard y de utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Basado en Aftermath. Utilízalo con precaución.</description>
-	<news>[COLOR gold][B]Star[/B] [/COLOR]WZRD v 1.8.1
-* Textos traducidos al castellano.
-
-	  </news>
-	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
-	  <platform>all</platform>
-	  <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    			<screenshot>resources/media/screenshot000.jpg</screenshot>
-    			<screenshot>resources/media/screenshot001.jpg</screenshot>
-    			<screenshot>resources/media/screenshot002.jpg</screenshot>
-    			<screenshot>resources/media/screenshot003.jpg</screenshot>
-    			<screenshot>resources/media/screenshot004.jpg</screenshot>				
-    </assets>
-    <license>GNU/GPL - v2</license>
-    <forum>https://</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://</source>
-  </extension>
-  
-  <extension point="xbmc.addon.repository" name="Repositorio Star">
-        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
-    </extension>
 </addon>
 
 <addon id="plugin.program.StarTools" name="[COLOR orange][B] STAR[/B] [/COLOR]Tools" version="1.5" provider-name="Chem@i">
@@ -122,8 +125,8 @@
 * traduccion al castellano
 * ...
 https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit
-Primera version del addon, 
-	  
+Primera version del addon,
+
 	  </news>
 	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
 	  <platform>all</platform>
@@ -134,7 +137,7 @@ Primera version del addon,
     			<screenshot>resources/media/screenshot001.jpg</screenshot>
     			<screenshot>resources/media/screenshot002.jpg</screenshot>
     			<screenshot>resources/media/screenshot003.jpg</screenshot>
-    			<screenshot>resources/media/screenshot004.jpg</screenshot>				
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>
     </assets>
     <license>GNU/GPL - v2</license>
     <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
@@ -142,13 +145,60 @@ Primera version del addon,
     <email>my@email.com</email>
     <source>https://</source>
   </extension>
-      
+
     <extension point="xbmc.addon.repository" name="Repositorio [COLOR orange][B] STAR[/B] [/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
     </extension>
 
+</addon>
+
+<addon id="plugin.program.StarWZRD" name="[COLOR gold][B]Star[/B] [/COLOR]WZRD" version="0.0.5" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary>[COLOR gold][B]Star[/B] [/COLOR]WZRD - by Chem@i</summary>
+  <description>Programa instalador de Wizard y de utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Basado en Aftermath. Utilízalo con precaución.</description>
+	<news>[COLOR gold][B]Star[/B] [/COLOR]WZRD v 0.0.5
+	* Primera versión.
+	* Textos traducidos al castellano.
+
+	  </news>
+	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    			<screenshot>resources/media/screenshot000.jpg</screenshot>
+    			<screenshot>resources/media/screenshot001.jpg</screenshot>
+    			<screenshot>resources/media/screenshot002.jpg</screenshot>
+    			<screenshot>resources/media/screenshot003.jpg</screenshot>
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>
+    			<screenshot>resources/media/screenshot005.jpg</screenshot>
+    			<screenshot>resources/media/screenshot006.jpg</screenshot>
+    			<screenshot>resources/media/screenshot007.jpg</screenshot>
+    			<screenshot>resources/media/screenshot008.jpg</screenshot>
+    			<screenshot>resources/media/screenshot009.jpg</screenshot>
+    			<screenshot>resources/media/screenshot010.jpg</screenshot>
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>https://</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://</source>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Repositorio Star">
+        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
+    </extension>
 </addon>
 
 <addon id="plugin.video.live.streamspro"
@@ -196,7 +246,7 @@ Primera version del addon,
   </extension>
 </addon>
 
-<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="1.0.7" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
+<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -216,12 +266,6 @@ Primera version del addon,
     <provides>video</provides>
   </extension>
 
-  <extension point="xbmc.addon.repository" name="Repositorio L ON">
-        <info compressed="false">https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Chemai/Baul/master/Repository/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Baul/master/Repositorio/</datadir>
-    </extension>
-
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR blue]Addon for Kodi[/COLOR]</summary>
     <description lang="en">[COLOR gold] DIC 2017[/COLOR] Addon personal </description>
@@ -233,7 +277,7 @@ Primera version del addon,
   </extension>
 </addon>
 
-<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="1.0.0" provider-name="Chem@i">
+<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="0.0.1" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -254,16 +298,10 @@ Primera version del addon,
     <provides>video</provides>
   </extension>
 
-    <extension point="xbmc.addon.repository" name="Repositorio [B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B]">
-        <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Chemai/Star/master/Repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/Repo/</datadir>
-    </extension>
-
   <extension point="xbmc.addon.metadata">
     <summary lang="es">[COLOR blue]Addon Personal for Kodi[/COLOR]</summary>
     <description lang="es">[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white]v:1.0.0[/COLOR]</description>
-      <news>[B]Versión:1.0.0[/B]
+      <news>[B]Versión:0.0.1[/B]
       [COLOR green][B]Bienvenido[/B][/COLOR]
 	  Espero disfrutes del contenido
 	  Primera versión, pruebas
@@ -289,7 +327,7 @@ Primera version del addon,
 
 <addon id="program.kodispeedtest"
        name="SpeedTest Kodi"
-       version="0.0.3"
+       version="0.0.1"
        provider-name="Speedtest.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -309,7 +347,7 @@ Primera version del addon,
     <extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio [COLOR gold][B]STAR[/B][/COLOR] v:1.0.0</summary>
@@ -319,7 +357,7 @@ Primera version del addon,
     </extension>
 </addon>
 
-<addon id="script.backupwizard" name="[COLOR white]Backup WIZARD[/COLOR]" version="1.1.0" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+<addon id="script.backupwizard" name="[COLOR white]Backup WIZARD[/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -361,11 +399,4 @@ Primera version del addon,
     <source>https://github.com/robweber/xbmcbackup</source>
   </extension>
 </addon>
-
-
-
-
-
-
-
 </addons>
