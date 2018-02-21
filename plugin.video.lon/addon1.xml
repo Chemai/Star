@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.lon"
+       name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]"
+       version="1.0.6"
+       provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.repository" name="Repositorio L ON">
+        <info>https://raw.githubusercontent.com/Chemai/repository.lon/master/repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Chemai/repository.lon/master/repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/master/Repositorio/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR blue]Addon for Kodi[/COLOR]</summary>
+    <description lang="en">[COLOR gold] DIC 2017[/COLOR] Addon personal </description>
+    <platform>all</platform>
+	<forum></forum>
+    <website></website>
+	<news></news>
+
+  </extension>
+</addon>
