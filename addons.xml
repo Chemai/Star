@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.3" provider-name="Chem@i">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-  <summary>ADV Set - Utilidades by Chem@i</summary>
-  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
-	<news>[COLOR orange] ADV [/COLOR]Set v 2.3
-* BackUp and Restore, (incorporada la opcion de restaurar copia de seguridad)
-[COLOR gold][B]¡¡ ATENCION !![/B][/COLOR] [COLOR red]Antes de RESTAURAR un BackUp, hay que cambiar necesariamente a los skin por defecto, Confluence o Estuary[/COLOR]
-* Textos traducidos al castellano.
-
-	  </news>
-	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
-	  <platform>all</platform>
-	  <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    			<screenshot>resources/media/screenshot000.jpg</screenshot>
-    			<screenshot>resources/media/screenshot001.jpg</screenshot>
-    			<screenshot>resources/media/screenshot002.jpg</screenshot>
-    			<screenshot>resources/media/screenshot003.jpg</screenshot>
-    			<screenshot>resources/media/screenshot004.jpg</screenshot>
-    </assets>
-    <license>GNU/GPL - v2</license>
-    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://</source>
-  </extension>
-
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-    </extension>
-
-</addon>
-
-<addon id="plugin.program.charger" name="[COLOR aqua]Xml Charguer[/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">
+<addon id="plugin.program.charger" name="[B][COLOR gold]Xml[/COLOR] [COLOR orange]Charguer[/COLOR][/B] [COLOR white][/COLOR]" version="0.0.1" provider-name="Chem@i"">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -64,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.StarWZRD" name="[COLOR gold][B]Star[/B] [/COLOR]WZRD" version="0.0.5" provider-name="Chem@i">
+<addon id="plugin.program.StarWZRD" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR]" version="0.0.7" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -73,7 +30,7 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-  <summary>[COLOR gold][B]Star[/B] [/COLOR]WZRD - by Chem@i</summary>
+  <summary>[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR] - by Chem@i</summary>
   <description>Programa instalador de Wizard y de utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Basado en Aftermath. Utilízalo con precaución.</description>
 	<news>[COLOR gold][B]Star[/B] [/COLOR]WZRD v 0.0.5
 	* Primera versión.
@@ -104,10 +61,25 @@
     <source>https://</source>
   </extension>
 
-  <extension point="xbmc.addon.repository" name="Repositorio Star">
+  <!--extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
+    </extension-->
+</addon>
+
+<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani-Chem@i">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
     </extension>
 </addon>
 
@@ -156,7 +128,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.lon" name="[COLOR gold]L[/COLOR] [COLOR orange]ON[/COLOR] [COLOR white][/COLOR]" version="0.0.1" provider-name="[COLOR gold][B]L[/B] [/COLOR][COLOR orange]ON[/COLOR]">>
+<addon id="plugin.video.lon" name="[B][COLOR gold]L[/COLOR][COLOR orange]ON[/COLOR][/B] [COLOR white]video-addon[/COLOR]" version="0.0.1" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -187,7 +159,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="0.0.1" provider-name="Chem@i">
+<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]video-addon[/COLOR]" version="0.0.1" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -235,17 +207,66 @@
   </extension>
 </addon>
 
-<addon id="repository.star" name="[COLOR gold][B]STAR[/B] [/COLOR]Repositorio" version="1.0.0" provider-name="Chem@i">
+<addon id="plugin.video.ZemTV-shani"
+       name="Zem"
+       version="6.6.7"
+       provider-name="shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+       	<import addon="script.module.elementtree" version="1.2.8"/>
+
+
+    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
+    <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with any of the content provider.</disclaimer>
+    <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
+    <email>@shani_08_kodi</email>
+    <platform>all</platform>
+
+
+  </extension>
+</addon>
+
+<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.0.0" provider-name="Chem@i">
     <extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio [COLOR gold][B]STAR[/B][/COLOR] v:1.0.0</summary>
+        <summary>[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Proxy for f4m</summary>
+        <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     </extension>
 </addon>
 </addons>

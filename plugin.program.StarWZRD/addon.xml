@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.StarWZRD" name="[COLOR gold][B]Star[/B] [/COLOR]WZRD" version="0.0.5" provider-name="Chem@i">
+<addon id="plugin.program.StarWZRD" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR]" version="0.0.7" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,7 +8,7 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-  <summary>[COLOR gold][B]Star[/B] [/COLOR]WZRD - by Chem@i</summary>
+  <summary>[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR] - by Chem@i</summary>
   <description>Programa instalador de Wizard y de utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Basado en Aftermath. Utilízalo con precaución.</description>
 	<news>[COLOR gold][B]Star[/B] [/COLOR]WZRD v 0.0.5
 	* Primera versión.
@@ -39,9 +39,9 @@
     <source>https://</source>
   </extension>
   
-  <extension point="xbmc.addon.repository" name="Repositorio Star">
+  <!--extension point="xbmc.addon.repository" name="Repositorio Star">
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/zips</datadir>
-    </extension>
+        <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
+    </extension-->
 </addon>

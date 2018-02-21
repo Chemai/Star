@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR][/B] [B][COLOR orange]TAR[/COLOR][/B] [COLOR white][/COLOR]" version="0.0.1" provider-name="Chem@i">
+<addon id="plugin.video.Star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]video-addon[/COLOR]" version="0.0.1" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
