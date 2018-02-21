@@ -1,5 +1,0 @@
-<settings>
-    <category label="Carpeta ZIP">
-        <setting id="zip" type="folder"    label="Elige el destino de backup"      default=""/>
-    </category>   
-</settings>
