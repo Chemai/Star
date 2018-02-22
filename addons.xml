@@ -240,8 +240,23 @@
   </extension>
 </addon>
 
-<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.0.0" provider-name="Chem@i">
+<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.2.0" provider-name="Chem@i">
     <extension point="xbmc.addon.repository" name="Repositorio Star">
+		<dir>
+			<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>
+			<checksum>https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml.md5</checksum>
+			<datadir zip="true">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
+			<checksum>https://github.com/jdf76/repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/jdf76/repository/raw/master/zips</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
         <info compressed="false">https://raw.githubusercontent.com/Chemai/Star/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Chemai/Star/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Chemai/Star/master/</datadir>
