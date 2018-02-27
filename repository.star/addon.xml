@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.2.0" provider-name="Chem@i">
+<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.2.1" provider-name="Chem@i">
     <extension point="xbmc.addon.repository" name="Repositorio Star">
 		<dir>
 			<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>

@@ -21,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.StarWZRD" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR]" version="0.0.7" provider-name="Chem@i">
+<addon id="plugin.program.StarWZRD" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]WZRD[/COLOR]" version="0.0.7b" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -240,7 +240,7 @@
   </extension>
 </addon>
 
-<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.2.0" provider-name="Chem@i">
+<addon id="repository.star" name="[B][COLOR gold]S[/COLOR] [COLOR orange]TAR[/COLOR][/B] [COLOR white]Repositorio[/COLOR]" version="1.2.1" provider-name="Chem@i">
     <extension point="xbmc.addon.repository" name="Repositorio Star">
 		<dir>
 			<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>
